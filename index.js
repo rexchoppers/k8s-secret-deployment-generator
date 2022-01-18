@@ -2,7 +2,7 @@ const file = require('file-system');
 const fs = require('fs');
 const YAML = require('yaml');
 
-const { base64encode, base64decode } = require('nodejs-base64');
+const { base64encode } = require('nodejs-base64');
 
 // Create result file
 const resultFileName = 'results_' + Date.now().toString();
@@ -79,7 +79,7 @@ async function runProcess() {
     }
 
     // Write secret config file
-    let stringToWriteSecret = "";
+    let stringToWriteSecret = '';
 
     for(const secretConfig of secretConfigsToWrite) {
         stringToWriteSecret += YAML.stringify(secretConfig) + '---\n';
