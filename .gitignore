@@ -237,4 +237,7 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
+# We don't want to commit any results secrets by accident
+results*/
+
 # End of https://www.toptal.com/developers/gitignore/api/node,intellij+all
