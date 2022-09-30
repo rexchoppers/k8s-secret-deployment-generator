@@ -1,13 +1,13 @@
 {
   "name": "yaml-secrets-maker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Quick and dirty way to convert a lot of environment variables into 1 secret + deployment file",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "broadstone-connorbrady",
+  "license": "MIT",
   "dependencies": {
     "file-system": "^2.2.2",
     "nodejs-base64": "^2.0.0",
