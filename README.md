@@ -22,7 +22,7 @@ Contributions are always welcome
 I don't have any red tape contributing process so if you want to add anything, just create a PR and let me know.
 ## Authors
 
-- [@broadstone-connorbrady](https://github.com/broadstone-connorbrady)
+- [@rexchoppers](https://github.com/rexchoppers)
 
 
 ## License
