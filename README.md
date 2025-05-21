@@ -1,5 +1,7 @@
 # K8s Secret + Deployment Generator
 
+**NOTE**: With the rise of generative AI, use that (Providing it doesn't learn off your secrets) This script was handy to have at the time
+
 Quick and dirty way to convert a lot of environment variables into 1 secret + deployment file
 
 This script will ingest a file of environment variables and convert them into a corresponding secrets and deployment file. 
