@@ -7,7 +7,7 @@ This script will ingest a file of environment variables and convert them into a 
 Modify this or use it as you please. I only created this for a close friend who didn't want to write out 60 environment variables in our transition to Kubernetes
 ## Installation
 
-1. Clone `git@github.com:broadstone-connorbrady/k8s-secret-deployment-generator.git`
+1. Clone `git@github.com:rexchoppers/k8s-secret-deployment-generator.git`
 2. Run `npm i`
 3. Copy `template-example.yaml` to `template.yaml`
 4. Modify the template to suit your needs
